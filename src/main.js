@@ -6,6 +6,8 @@ import Util from './libs/util';
 import App from './app.vue';
 import 'iview/dist/styles/iview.css';
 
+require('./mock/mock.js')
+
 Vue.use(VueRouter);
 Vue.use(iView);
 
